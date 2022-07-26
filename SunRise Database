@@ -1,9 +1,9 @@
-local ver = 2.1
+local ver = 2
 local username = globals.get_username()
 
 
 local users = {
-"ONyxNato",
+
 "Forever_3210", 
 "nedimdork0",
 "eugen",
