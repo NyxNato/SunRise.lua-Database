@@ -10,6 +10,7 @@ local users = {
 "after",
 "lolizinha Ywa",
 "godfonsi",
+"uraim",
 }
  
 for i = 0,#users do
