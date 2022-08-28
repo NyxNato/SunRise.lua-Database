@@ -3,7 +3,7 @@ local username = globals.get_username()
 
 
 local users = {
-
+"ONyxNato",
 "Forever_3210", 
 "nedimdork0",
 "eugen",
