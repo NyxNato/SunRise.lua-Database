@@ -12,6 +12,21 @@ local users = {
 "godfonsi",
 "uraim",
 "MATOKIO",
+ "cwexe",
+ "Retrox",
+ "r1se2137",
+ "Andrew0203",
+ "afonsotyz",
+ "Ruzule",
+ "istauchegal", 
+ "ActioN" ,
+ "FaneRu",
+ "GraveN",
+ "xRuby_HvH",
+ "uraim", 
+ "Dreams001",
+ "lolizinha Ywa",
+ "CoJIny1337",
 }
  
 for i = 0,#users do
