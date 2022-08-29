@@ -8,7 +8,6 @@ local users = {
 "nedimdork0",
 "eugen",
 "after",
-"thundezeraa",
 "lolizinha Ywa",
 "godfonsi",
 "uraim",
@@ -30,6 +29,7 @@ local users = {
  "CoJIny1337",
 "DaNiLKo",
 "gentleman24",
+"thunderzeraa",
 }
  
 for i = 0,#users do
