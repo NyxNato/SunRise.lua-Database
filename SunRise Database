@@ -27,6 +27,7 @@ local users = {
  "Dreams001",
  "lolizinha Ywa",
  "CoJIny1337",
+"DaNiLKo",
 }
  
 for i = 0,#users do
