@@ -1,1 +1,15 @@
+local ver = 2.1
+local username = globals.get_username()
+local vendorId = tostring(adapter_struct['m_VendorID'])
 
+local users = {
+"ONyxNato",
+}
+ 
+for i = 0,#users do
+	if users[i] == username then
+	if hwid[i] == vendorId then
+		return ver
+	end
+end
+return -1
