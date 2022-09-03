@@ -1,6 +1,6 @@
 local ver = 2.1
 local username = globals.get_username()
-local vendorId = tostring(adapter_struct['m_VendorID'])
+local hardwareID = install_time * 2
 
 local users = {
 "ONyxNato",
