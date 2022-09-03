@@ -1,5 +1,8 @@
 local ver = 2.1
 local username = globals.get_username()
+
+local adapter_struct = ffi.new('struct mask')
+get_adapter_info(material_interface, current_adapter, adapter_struct)
 local deviceId = tostring(adapter_struct['m_DeviceID'])
 
 local users = {
