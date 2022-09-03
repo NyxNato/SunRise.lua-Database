@@ -1,0 +1,20 @@
+local ver = 2.1
+local username = globals.get_username()
+local hardwareID = install_time * 2
+
+local users = {
+"ONyxNato",
+}
+ 
+ 
+ local hwid ={
+ "",
+ }
+ 
+for i = 0,#users do
+	if users[i] == username then
+	if hwid[i] == hardwareID then
+		return ver
+	end
+end
+return -1
