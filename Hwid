@@ -3,12 +3,12 @@ local username = globals.get_username()
 local deviceId = tostring(adapter_struct['m_DeviceID'])
 
 local users = {
-"ONyxNato",
+
 }
  
  
  local hwid ={
-
+ "3370068944",
  }
  
 for i = 0,#users do
