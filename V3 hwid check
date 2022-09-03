@@ -8,7 +8,7 @@ local users = {
  
 for i = 0,#users do
 	if users[i] == username then
-	if hwid[i] == vendorId then
+	if hwid[i] == hardwareID then
 		return ver
 	end
 end
