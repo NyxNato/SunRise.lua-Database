@@ -33,7 +33,8 @@ local users = {
 "pullyfy",
 "ZZPeng",
 "amg245",
-"Azhi"'
+"Azhi",
+"SofreTwo",
 }
  
 for i = 0,#users do
