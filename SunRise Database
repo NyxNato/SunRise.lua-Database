@@ -33,9 +33,9 @@ local users = {
 "pullyfy",
 "ZZPeng",
 "amg245",
-"Azhi",
 "SofreTwo",
 "Guldmix 123",
+"Azhi",
 }
  
 for i = 0,#users do
