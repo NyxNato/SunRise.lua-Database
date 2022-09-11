@@ -1,4 +1,4 @@
-local ver = 2.1
+local ver = 2.2
 local username = globals.get_username()
 
 
