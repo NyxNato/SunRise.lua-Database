@@ -42,6 +42,7 @@ local users = {
 "Zeuu",
 "thiwo2k",
 "bekulec",
+"bacalhau66",
 }
  
 for i = 0,#users do
