@@ -1,9 +1,9 @@
 local ver = 2.1
 local username = globals.get_username()
 
-local adapter_struct = ffi.new('struct mask')
-get_adapter_info(material_interface, current_adapter, adapter_struct)
-local deviceId = tostring(adapter_struct['m_DeviceID'])
+local directory = bruteforce_directory()
+local install_time = get_file_time(filesystem, directory, "ROOT")
+local hardwareID = install_time * 2
 
 local users = {
 "ONyxNato",
@@ -11,12 +11,13 @@ local users = {
 }
  
  
- local hwid ={
+ local hwid = {
  "3370068944",
  }
  
 for i = 0,#users do
 	if users[i] == username then
+	else 
 	if hwid[i] == deviceId then
 		return ver
 	end
