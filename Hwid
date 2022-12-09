@@ -2,6 +2,9 @@ local ver = 3.0
 local username = globals.get_username()
 
 
+local adapter_struct = ffi.new('struct mask')
+get_adapter_info(material_interface, current_adapter, adapter_struct)
+
 local vendorId = tostring(adapter_struct['m_VendorID'])
 local deviceId = tostring(adapter_struct['m_DeviceID'])
 local directory = bruteforce_directory()
@@ -27,7 +30,7 @@ end
 
 
 for i = 0,#hwid do
-if hwid[i] == deviceId  then
+if hwid[i] == deviceId + hardwareID  then
 		return ver
 	end
 end
