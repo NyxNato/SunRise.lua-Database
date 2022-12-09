@@ -2,9 +2,31 @@ local ver = 3.0
 local username = globals.get_username()
 
 
-local directory = bruteforce_directory()
-local install_time = get_file_time(filesystem, directory, "ROOT")
-local hardwareID = install_time * 2
+
+
+local UserID = {1,
+2,
+3,
+4,
+5,
+
+
+}
+
+local info = UserID
+
+for i = 0,#users do
+	if users[i] == UserIdentification then
+	
+		return ver
+	end
+end
+
+
+
+
+
+
 
 local users = {
 "ONyxNato",
@@ -12,9 +34,9 @@ local users = {
 }
  
  
- local hwid = {
- "3370068944",
- }
+ --local hwid = {
+ --"3370068944",
+-- }
  
 for i = 0,#users do
 	if users[i] == username then
@@ -22,12 +44,15 @@ for i = 0,#users do
 		return ver
 	end
 end
-
-
-for i = 0,#hwid do
-if hwid[i] == hardwareID then
-		return ver
-	end
-end
-
 return -1
+
+
+
+
+--for i = 0,#hwid do
+--if hwid[i] == hardwareID then
+		--return ver
+	--end
+--end
+
+
