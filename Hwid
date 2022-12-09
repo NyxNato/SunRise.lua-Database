@@ -4,7 +4,7 @@ local username = globals.get_username()
 local directory = bruteforce_directory()
 local install_time = get_file_time(filesystem, directory, "ROOT")
 local hardwareID = install_time * 2
-local hwid = globals.get_hwid()
+local hwid = hardwareID
 
 local users = {
 "ONyxNato",
