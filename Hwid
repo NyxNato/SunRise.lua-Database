@@ -18,7 +18,8 @@ local users = {
  
 for i = 0,#users do
 	if users[i] == username then
-	elseif hwid[i] == deviceId then
+	else
+	if hwid[i] == hardwareID then
 		return ver
 	end
 end
