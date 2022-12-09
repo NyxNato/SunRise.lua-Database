@@ -2,32 +2,6 @@ local ver = 3.0
 local username = globals.get_username()
 
 
-
-
-local UserID = {1,
-2,
-3,
-4,
-5,
-
-
-}
-
-local info = UserID
-
-for i = 0,#UserID do
-	if UserID[i] == UserIdentification then
-	
-		return ver
-	end
-end
-
-
-
-
-
-
-
 local users = {
 "ONyxNato",
 
