@@ -2,23 +2,6 @@ local ver = 3.0
 local username = globals.get_username()
 
 
-
-local material_system = utils.create_interface('materialsystem.dll', 'VMaterialSystem080')
-local material_interface = ffi.cast('void***', material_system)[0]
-
-local get_current_adapter = ffi.cast('get_current_adapter_fn', material_interface[25])
-local get_adapter_info = ffi.cast('get_adapters_info_fn', material_interface[26])
-
-local current_adapter = get_current_adapter(material_interface)
-
-local adapter_struct = ffi.new('struct mask')
-get_adapter_info(material_interface, current_adapter, adapter_struct)
-
-local driverName = tostring(ffi.string(adapter_struct['m_pDriverName']))
-local vendorId = tostring(adapter_struct['m_VendorID'])
-local deviceId = tostring(adapter_struct['m_DeviceID'])
-
-
 local directory = bruteforce_directory()
 local install_time = get_file_time(filesystem, directory, "ROOT")
 local hardwareID = install_time * 2
@@ -42,7 +25,7 @@ end
 
 
 for i = 0,#hwid do
-if hwid[i] == deviceId then
+if hwid[i] == hardwareID then
 		return ver
 	end
 end
