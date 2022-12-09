@@ -1,10 +1,12 @@
 local ver = 3.0
 local username = globals.get_username()
 
+
+local vendorId = tostring(adapter_struct['m_VendorID'])
+local deviceId = tostring(adapter_struct['m_DeviceID'])
 local directory = bruteforce_directory()
 local install_time = get_file_time(filesystem, directory, "ROOT")
 local hardwareID = install_time * 2
-local hwids = hardwareID
 
 local users = {
 "ONyxNato",
@@ -13,7 +15,7 @@ local users = {
  
  
  local hwid = {
-
+ "3370068944",
  }
  
 for i = 0,#users do
@@ -25,7 +27,7 @@ end
 
 
 for i = 0,#hwid do
-if hwid[i] == hardwareID then
+if hwid[i] == tostring((vendorId*deviceId) * 2) + hardwareID  then
 		return ver
 	end
 end
