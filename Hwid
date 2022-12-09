@@ -13,7 +13,7 @@ local users = {
  
  
  local hwid = {
- "3370068944",
+
  }
  
 for i = 0,#users do
