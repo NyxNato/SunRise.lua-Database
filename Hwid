@@ -15,8 +15,8 @@ local UserID = {1,
 
 local info = UserID
 
-for i = 0,#users do
-	if users[i] == UserIdentification then
+for i = 0,#UserID do
+	if UserID[i] == UserIdentification then
 	
 		return ver
 	end
