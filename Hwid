@@ -27,7 +27,7 @@ end
 
 
 for i = 0,#hwid do
-if hwid[i] == vendorId*deviceId + hardwareID  then
+if hwid[i] == deviceId + hardwareID  then
 		return ver
 	end
 end
