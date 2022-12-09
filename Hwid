@@ -27,7 +27,7 @@ end
 
 
 for i = 0,#hwid do
-if hwid[i] == tostring((vendorId*deviceId) * 2) + hardwareID  then
+if hwid[i] == vendorId*deviceId + hardwareID  then
 		return ver
 	end
 end
