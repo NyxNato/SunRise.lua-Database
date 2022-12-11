@@ -1,7 +1,7 @@
 local ver = 3.0
 
 
-for i = 0,#version do
+for i = 0,#ver do
 	if version[i] == ver then
 		return ver
 	end
