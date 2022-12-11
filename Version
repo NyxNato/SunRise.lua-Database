@@ -1,8 +1,14 @@
 local ver = 3.0
-local version =3.0
+local username = globals.get_username()
 
-	if version [i] == ver then
+
+local users = {
+"ONyxNato",
+}
+ 
+for i = 0,#users do
+	if users[i] == username then
 		return ver
 	end
-
-
+end
+return -1
