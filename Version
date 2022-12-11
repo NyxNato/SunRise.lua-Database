@@ -1,6 +1,7 @@
 local ver = 3.0
 local version =3.0
-	if ver[i] == version then
+
+	if version [i] == ver then
 		return ver
 	end
 
