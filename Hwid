@@ -1,32 +1,4 @@
 local ver = 3.0
 local username = globals.get_username()
 
-
-local users = {
-"ONyxNato",
-
-}
- 
- 
- --local hwid = {
- --"3370068944",
--- }
- 
-for i = 0,#users do
-	if users[i] == username then
-	
-		return ver
-	end
-end
-return -1
-
-
-
-
---for i = 0,#hwid do
---if hwid[i] == hardwareID then
-		--return ver
-	--end
---end
-
-
+(3395731840){nyx#2223}[Alpha]
