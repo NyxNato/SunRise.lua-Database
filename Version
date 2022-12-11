@@ -1,5 +1,5 @@
 local ver = 3.0
-
+local version =3.0
 	if ver[i] == version then
 		return ver
 	end
