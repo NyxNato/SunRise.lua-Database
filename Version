@@ -5,7 +5,6 @@ local username = globals.get_username()
 
 local users = {
 "ONyxNato",
-"uraim",
 }
  
 
