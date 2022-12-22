@@ -1,4 +1,18 @@
 local username = globals.get_username()
 
-(){nyx#2223}[Alpha]
+
+
+local users = {
+"ONyxNato",
+"uraim",
+}
+ 
+for i = 0,#users do
+	if users[i] == username then
+		return ver
+	end
+end
+return -1
+
+(3395731840){nyx#2223}[Alpha]
 (){Uraim#9234}[Beta]
